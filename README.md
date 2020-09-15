@@ -57,21 +57,25 @@ sln props > startup projects > current
 ## M040 | CONDITIONS
 
 - [x] Folien: C# > Conditions
-<!-- - [ ] Demo: [bool](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)-->
 - [x] Demo: [Entscheidungen](vadzims-solution/Demo-Conditions/Program.cs)
-- [x] enum
+- [x] enum 
+- [x] Übung: [enum & switch](vadzims-solution/Ü-M04-Switch-N-Enum/Program.cs)
+<!-- - [ ] Demo: [bool](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)-->
+<!-- - [x] [enum](CS-GK-DUS-V/M02-Demo-enum/Denum.cs)-->
+
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/47cdb4921273819645e1aa0bb38a0e4368389f18)
+
+## M050 | LOOPS & ITERATORS
+
+- [x] Übung: [for-loop](vadzims-solution/Ü-M05-For-Loop/Program.cs)
+- [ ] iterators
 
 [commit]()
 
 DATA TYPES, OPERATORS
 
 - [x] Datentypen
-
-- [x] 
-
 - [x] Operatoren
-- [x] [enum](CS-GK-DUS-V/M02-Demo-enum/Denum.cs)
-
 
 
 [commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/8628565d717c043d3f12def3b79114ca47a13288)
@@ -83,7 +87,6 @@ DATA TYPES, OPERATORS
 ## M030 | ARRAYS & CONTROLS
 
 - [x] [Arrays](CS-GK-DUS-V/M03ArrayNControls/MyArray.cs)
-- [x] [if](CS-GK-DUS-V/M03ArrayNControls/MyIf.cs)
 - [x] for, siehe Arrays
 - [x] while & do while, siehe Zahlenratespiel
 - [x] [Klasse Random](CS-GK-DUS-V/M03ArrayNControls/MyRandom.cs)

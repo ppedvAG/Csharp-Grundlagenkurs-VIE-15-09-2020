@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Conditions", "Demo-Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M04-Switch-N-Enum", "Ü-M04-Switch-N-Enum\Ü-M04-Switch-N-Enum.csproj", "{CCB0E626-B5ED-4F10-B08A-BAED94FF0860}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M05-For-Loop", "Ü-M05-For-Loop\Ü-M05-For-Loop.csproj", "{77758988-E652-4F41-8C4A-8C66896DB4EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{CCB0E626-B5ED-4F10-B08A-BAED94FF0860}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCB0E626-B5ED-4F10-B08A-BAED94FF0860}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCB0E626-B5ED-4F10-B08A-BAED94FF0860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77758988-E652-4F41-8C4A-8C66896DB4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77758988-E652-4F41-8C4A-8C66896DB4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77758988-E652-4F41-8C4A-8C66896DB4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77758988-E652-4F41-8C4A-8C66896DB4EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
