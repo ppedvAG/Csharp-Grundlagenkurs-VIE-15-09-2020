@@ -6,8 +6,7 @@ namespace Demo_string
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
+           
             // Literals for string
 
             Console.WriteLine("einfaches String");
@@ -32,10 +31,18 @@ DateTime.MinValue: {DateTime.MinValue}
 DateTime.MaxValue: {DateTime.MaxValue}";
             Console.WriteLine("str4: {0}", str4);
 
+            // =================================================
             Console.WriteLine("String & Escapes");
             string str5 = "text     text\ntext";
             Console.WriteLine("str5: {0}", str5);
 
+            // =================================================
+            // default-Wert
+            string str0 = default;
+            Console.WriteLine("str0: {0}", str0);
+            // Console.WriteLine("str0: {0}", str0.ToString()); // NullReferenceException
+
+            // =================================================
             Console.ReadKey();
         }
     }

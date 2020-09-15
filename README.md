@@ -42,19 +42,27 @@ Tools > Options > Debugging > Automatically close console when debugging stops
 
 sln props > startup projects > current
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/61518e016c75e1f9f2ade3e9091c36e66a5f16fa)
+
+## M030 | HANDLING NUMBERS
+
+- [x] Folien: Handling Numbers
+- [ ] [int.cs](CS-GK-DUS-V/M02-Demo-int/Dint.cs)
+- [x] [double.cs](CS-GK-DUS-V/M02-Demo-double/Ddouble.cs)
+- [x] Parsing & Casting
+- [x] [Lab MiniRechner](CS-GK-DUS-V/M02-Lab-MiniRechner/MiniRechner.cs)
+
+commit
+
 
 DATA TYPES, OPERATORS
 
 - [x] Datentypen
 - [x] [bool.cs](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)
 - [x] 
-- [x] [int.cs](CS-GK-DUS-V/M02-Demo-int/Dint.cs)
-- [x] [double.cs](CS-GK-DUS-V/M02-Demo-double/Ddouble.cs)
+
 - [x] Operatoren
-- [x] Parsing & Casting
 - [x] [enum](CS-GK-DUS-V/M02-Demo-enum/Denum.cs)
-- [x] [Lab MiniRechner](CS-GK-DUS-V/M02-Lab-MiniRechner/MiniRechner.cs)
 
 
 

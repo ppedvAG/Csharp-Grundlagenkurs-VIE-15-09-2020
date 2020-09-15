@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Demo_Console
 {
@@ -33,6 +34,19 @@ namespace Demo_Console
 
             Console.WriteLine(args); // System.String[]
 
+            // ===========================================
+            // Enconding 
+            // Output: von Code zur Oberfläche
+            Console.WriteLine("Eurozeichen: {0}", "€");
+            Console.WriteLine("Console.OutputEncoding.EncodingName: {0}", Console.OutputEncoding.EncodingName); // Codepage - 850
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.WriteLine("Eurozeichen: {0}", "€");
+
+            // Input: von Oberfläche zum Code
+            Console.WriteLine("Console.InputEncoding: {0}", Console.InputEncoding); // System.Text.OSEncoding
+            Console.WriteLine("Console.InputEncoding.EncodingName: {0}", Console.InputEncoding.EncodingName); // Codepage - 850
+
+            // ===========================================
             Console.ReadKey();
         }
     }
