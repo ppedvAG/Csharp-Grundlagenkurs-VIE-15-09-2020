@@ -22,6 +22,7 @@
 | `ctrl k c` | comment one or more lines |
 | `ctrl k u` | uncomment code |
 | `ctrl k d` | format code |
+| `ctrl k f` | format code |
 | `ctrl r r` | rename |
 
 ## DEBUGGING

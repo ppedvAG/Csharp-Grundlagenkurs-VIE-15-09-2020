@@ -1,14 +1,16 @@
 ﻿# Csharp-Grundlagenkurs-VIE-15-09-2020
 
-# ABLAUF VOM KURS
+VADZIM
 
 ## M000 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS [homepage](https://visualstudio.microsoft.com/de/)
-- [ ] [vs-shortcuts](VS-SHORTCUTS.md)
-- [ ] Git
-- [ ] [git-commands](GIT-COMMANDS.md)
+- [x] Folien: Greeter
+- [x] VS [homepage](https://visualstudio.microsoft.com/de/)
+- [x] Folien: VS > Getting Started
+- [x] Folien: VS > Projects & Solutions
+- [x] [vs-shortcuts](VS-SHORTCUTS.md)
+- [x] Git
+- [x] [git-commands](GIT-COMMANDS.md)
 
 Tools > Options > General > Color Theme
 
@@ -16,20 +18,19 @@ VS Installer > installierte Version ändern > Sprachpakete
 
 Tools > Options > Text Editor > All Languages > General > Line numbers
 
-commit
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/0894e11907272acc6f47dd185c824ce1566f0f11)
 
 ## M010 | GETTING STARTED
 
-- [x] Intro [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
-- [ ] [HelloWorld.cs](M01HelloWorld/HelloWorld.cs)
-- [x] [DConsole.cs](CS-GK-DUS-V/M01-Demo-Console/Program.cs)
+- [x] Folien: C# > Getting Started
+- [x] Folien: C# > Classes
+- [x] [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
+- [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)- 
 - [x] [SPICKER](CSHARP-CHEATSHEET.md)
-- [ ] [SNIPPETS](VS-CS-SNIPPETS.md)
+- [x] [SNIPPETS](VS-CS-SNIPPETS.md)
+- [x] Demo [Demo-Console](vadzims-solution/Demo-Console/Program.cs)
 
-sln props > startup projects > current
-
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/be500e526f714ea2da03717f6da18f275aad089a)
+[commit]()
 
 ## M020 | DATA TYPES, OPERATORS
 
@@ -42,6 +43,8 @@ sln props > startup projects > current
 - [x] Parsing & Casting
 - [x] [enum](CS-GK-DUS-V/M02-Demo-enum/Denum.cs)
 - [x] [Lab MiniRechner](CS-GK-DUS-V/M02-Lab-MiniRechner/MiniRechner.cs)
+
+sln props > startup projects > current
 
 [commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/8628565d717c043d3f12def3b79114ca47a13288)
 
