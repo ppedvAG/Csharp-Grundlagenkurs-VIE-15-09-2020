@@ -30,13 +30,25 @@ Tools > Options > Text Editor > All Languages > General > Line numbers
 - [x] [SNIPPETS](VS-CS-SNIPPETS.md)
 - [x] Demo [Demo-Console](vadzims-solution/Demo-Console/Program.cs)
 
+Tools > Options > Debugging > Automatically close console when debugging stops
+
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/ec6b1e2f6f2b1f0fb667a833899098995b8e3515)
+
+## M020 | HANDLING TEXT
+
+- [x] Folien: C# > Handling Text
+- [x] [Demo-string](vadzims-solution/Demo-string/Program.cs)
+- [x] [Demo-char](vadzims-solution/Demo-char/Program.cs)
+
+sln props > startup projects > current
+
 [commit]()
 
-## M020 | DATA TYPES, OPERATORS
+DATA TYPES, OPERATORS
 
 - [x] Datentypen
 - [x] [bool.cs](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)
-- [x] [string.cs](CS-GK-DUS-V/M02-Demo-string/Dstring.cs)
+- [x] 
 - [x] [int.cs](CS-GK-DUS-V/M02-Demo-int/Dint.cs)
 - [x] [double.cs](CS-GK-DUS-V/M02-Demo-double/Ddouble.cs)
 - [x] Operatoren
@@ -44,7 +56,7 @@ Tools > Options > Text Editor > All Languages > General > Line numbers
 - [x] [enum](CS-GK-DUS-V/M02-Demo-enum/Denum.cs)
 - [x] [Lab MiniRechner](CS-GK-DUS-V/M02-Lab-MiniRechner/MiniRechner.cs)
 
-sln props > startup projects > current
+
 
 [commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/8628565d717c043d3f12def3b79114ca47a13288)
 
