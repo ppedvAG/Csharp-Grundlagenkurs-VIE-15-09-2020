@@ -24,11 +24,11 @@ Tools > Options > Text Editor > All Languages > General > Line numbers
 
 - [x] Folien: C# > Getting Started
 - [x] Folien: C# > Classes
-- [x] [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [x] .NET [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)- 
-- [x] [SPICKER](CSHARP-CHEATSHEET.md)
-- [x] [SNIPPETS](VS-CS-SNIPPETS.md)
-- [x] Demo [Demo-Console](vadzims-solution/Demo-Console/Program.cs)
+- [x] Link: [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
+- [x] Link: [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)- 
+- [x] Spicker: [C# Syntax](CSHARP-CHEATSHEET.md)
+- [x] Spicker: [Snippets](VS-CS-SNIPPETS.md)
+- [x] Demo: [Console](vadzims-solution/Demo-Console/Program.cs)
 
 Tools > Options > Debugging > Automatically close console when debugging stops
 
@@ -37,8 +37,8 @@ Tools > Options > Debugging > Automatically close console when debugging stops
 ## M020 | HANDLING TEXT
 
 - [x] Folien: C# > Handling Text
-- [x] [Demo-string](vadzims-solution/Demo-string/Program.cs)
-- [x] [Demo-char](vadzims-solution/Demo-char/Program.cs)
+- [x] Demo: [string](vadzims-solution/Demo-string/Program.cs)
+- [x] Demo: [char](vadzims-solution/Demo-char/Program.cs)
 
 sln props > startup projects > current
 
@@ -46,19 +46,27 @@ sln props > startup projects > current
 
 ## M030 | HANDLING NUMBERS
 
-- [x] Folien: Handling Numbers
-- [ ] [int.cs](CS-GK-DUS-V/M02-Demo-int/Dint.cs)
-- [x] [double.cs](CS-GK-DUS-V/M02-Demo-double/Ddouble.cs)
+- [x] Folien: C# > Handling Numbers
+- [x] Demo: [int](vadzims-solution/Demo-int/Dint.cs)
+- [x] Demo: [double](vadzims-solution/Demo-double/Ddouble.cs)
 - [x] Parsing & Casting
-- [x] [Lab MiniRechner](CS-GK-DUS-V/M02-Lab-MiniRechner/MiniRechner.cs)
+- [x] Übung: [MiniRechner](vadzims-solution/Ü-M03-MiniRechner/Program.cs)
 
-commit
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/375fda5872ba748a1ef2f2bcda917c5fe14ca003)
 
+## M040 | CONDITIONS
+
+- [x] Folien: C# > Conditions
+<!-- - [ ] Demo: [bool](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)-->
+- [x] Demo: [Entscheidungen](vadzims-solution/Demo-Conditions/Program.cs)
+- [x] enum
+
+[commit]()
 
 DATA TYPES, OPERATORS
 
 - [x] Datentypen
-- [x] [bool.cs](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)
+
 - [x] 
 
 - [x] Operatoren
