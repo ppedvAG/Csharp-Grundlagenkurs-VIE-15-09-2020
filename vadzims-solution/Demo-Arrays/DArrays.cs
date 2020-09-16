@@ -17,6 +17,28 @@ namespace Demo_Arrays
             string[] strings = new string[] { "s1", "s2" };
 
             // ===============================================
+            // Methoden, die bei den Array-Instanzen angewendet werden können:
+            // sprich: nicht statische Methoden der Klasse Array
+
+            int[] zahlen = new int[] { 3, 4, 5 };
+            //zahlen.Clone();
+            //zahlen.CopyTo();            
+            //zahlen.GetEnumerator();            
+            //zahlen.GetLength();
+            //zahlen.GetLowerBound();
+            //zahlen.GetUpperBound();
+            //zahlen.Initialize();
+            // zahlen.LongLength(); // non-invokable
+
+
+            // ===============================================
+            // Methoden, die durch die Klasse Array selbst aufgerufen werden können
+            // sprich: statische Methoden der Klasse Array
+            int[] restArr = new int[2];
+            Array.Copy(zahlen, restArr, 2);
+            // für die weiteren Methoden schau in der Definition der Klasse Array
+
+            // ===============================================
             // Mehrdimesionale Arrays
 
             int zeilen = 3, spalten = 4;

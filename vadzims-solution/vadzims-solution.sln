@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M06-Arrays", "Demo-Arrays
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M06-Lotto", "Ü-M06-Lotto\Ü-M06-Lotto.csproj", "{7D9E0F59-B72E-472E-8CA3-30C2C0CB5331}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M07-Functions", "D-M07-Functions\D-M07-Functions.csproj", "{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{7D9E0F59-B72E-472E-8CA3-30C2C0CB5331}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9E0F59-B72E-472E-8CA3-30C2C0CB5331}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9E0F59-B72E-472E-8CA3-30C2C0CB5331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -49,6 +49,10 @@ DateTime.MaxValue: {DateTime.MaxValue}";
             Console.WriteLine("str6.Length: {0}", str6.Length);
             Console.WriteLine("str6[1]: {0}", str6[1]);
 
+            // =================================================
+            // Anführungszeichen, die gerendert werden sollen:
+            string test = "PrüfeÄnderbarkeit(\"str1\", \"strg2\"): {0}";
+
             Console.ReadKey();
         }
     }
