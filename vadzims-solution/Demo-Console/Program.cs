@@ -34,6 +34,8 @@ namespace Demo_Console
 
             Console.WriteLine(args); // System.String[]
 
+            Console.WriteLine("args[0]: {0}", args[0]);
+
             // ===========================================
             // Enconding 
             // Output: von Code zur Oberfläche
