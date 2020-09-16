@@ -61,6 +61,10 @@ namespace Demo_int
             Console.WriteLine("i8: {0}", i8); // 4
 
 
+            // ============================================
+            // 3/5 ergibt eine ganze Zahl oder ein Double?
+            // Antwort: eine 0
+
             Console.ReadKey();
         }
     }

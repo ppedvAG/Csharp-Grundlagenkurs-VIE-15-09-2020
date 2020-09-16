@@ -77,32 +77,39 @@ sln props > startup projects > current
 ## M060 | ARRAYS
 
 - [ ] Folien: C# > Arrays
+- [ ] Folien: C# > Linq Methods
 - [ ] Demo: [Arrays](vadzims-solution/Demo-Arrays/DArrays.cs)
 - [ ] iterator foreach
 - [ ] Übung: [Lotto](vadzims-solution/Ü-M06-Lotto/ÜLotto.cs)
  
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3071ac28b1ee9f2d747493e321cd69d1fc62ff17)
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/66f5ee0cdf74fc8eb7b2fc61cac3456b2e8e6d5c)
 
-DATA TYPES, OPERATORS
+## M070 | FUNCTIONS
 
-- [x] Datentypen
-- [x] Operatoren
-
-
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/8628565d717c043d3f12def3b79114ca47a13288)
-
-- [ ] HasFlag
-
-[commit]()
-## M040 | METHODS
-
+- [x] Folien: C# > Functions
 - [x] arguments
 - [x] parameters
 - [x] params
 - [x] return
 - [x] overloads
 - [x] out & ref parameters & args
-- [x] [Demo Methods](CS-GK-DUS-V/M04-Demo-Methods/DMethods.cs)
+- [x] Demo: [Methods](vadzims-solution/D-M07-Functions/DFunctions.cs)
+
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/8628565d717c043d3f12def3b79114ca47a13288)
+
+
+
+DATA TYPES, OPERATORS
+
+- [x] Datentypen
+
+- [x] Operatoren
+
+
+
+- [ ] HasFlag
+
+[commit]()
 
 ## M050 | CLASSES & OOP
 

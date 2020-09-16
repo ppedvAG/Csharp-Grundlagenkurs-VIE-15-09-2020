@@ -32,9 +32,23 @@ namespace Demo_Console
 
             Console.WriteLine("Sie haben eingegeben: {0}", input); // 114, weil ASCII
 
-            Console.WriteLine(args); // System.String[]
+            Console.WriteLine("args: {0}", args); // System.String[]
+            Console.WriteLine("args.Length: {0}", args.Length); // Ein Fehler kommt:
+            /*
+             * #todo
+  *           Unhandled exception. System.FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  * at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+  * at System.IO.StreamWriter.WriteFormatHelper(String format, ParamsArray args, Boolean appendNewLine)
+  * at System.IO.StreamWriter.WriteLine(String format, Object[] arg)
+  * at System.IO.TextWriter.SyncTextWriter.WriteLine(String format, Object[] arg)
+  * at System.Console.WriteLine(String format, Object[] arg)
+  * at Demo_Console.DConsole.Main(String[] args) in D:\D_Dokumente\k_csharp\20200915_CSharpAnf_VadzimN_VIE\20200915-CS-GK-VIE\vadzims-solution\Demo-Console\DConsole.cs:line 36
+            */
 
-            Console.WriteLine("args[0]: {0}", args[0]);
+            if (args.Length > 0)
+            {
+                Console.WriteLine("args[0]: {0}", args[0]);
+            }
 
             // ===========================================
             // Enconding 
