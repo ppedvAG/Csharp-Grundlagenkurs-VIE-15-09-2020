@@ -51,6 +51,9 @@ namespace Demo_int
             // string zu int
             // int.Parse("4");
 
+            // char zu int
+            // int val = (int)Char.GetNumericValue('8');
+
             // double zu int
             // cast-Operator ()
             double dbl = 4.9;

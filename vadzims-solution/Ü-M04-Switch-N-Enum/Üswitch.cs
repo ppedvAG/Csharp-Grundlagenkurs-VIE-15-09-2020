@@ -2,7 +2,7 @@
 
 namespace Ü_M04_Switch_N_Enum
 {
-    class Program
+    class Üswitch
     {
         enum Wochentag
         {

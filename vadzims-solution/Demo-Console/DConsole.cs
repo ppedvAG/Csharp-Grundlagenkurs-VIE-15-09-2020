@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Demo_Console
 {
-    class Program
+    class DConsole
     {
         static void Main(string[] args)
         {
@@ -33,6 +33,8 @@ namespace Demo_Console
             Console.WriteLine("Sie haben eingegeben: {0}", input); // 114, weil ASCII
 
             Console.WriteLine(args); // System.String[]
+
+            Console.WriteLine("args[0]: {0}", args[0]);
 
             // ===========================================
             // Enconding 

@@ -2,7 +2,7 @@
 
 namespace Demo_Conditions
 {
-    class Program
+    class DConditions
     {
         static void Main(string[] args)
         {

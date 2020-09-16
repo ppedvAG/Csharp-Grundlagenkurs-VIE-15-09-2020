@@ -5,12 +5,12 @@ VADZIM
 ## M000 | WARMING UP
 
 - [x] Folien: Greeter
-- [x] VS [homepage](https://visualstudio.microsoft.com/de/)
+- [x] Link: [VS homepage](https://visualstudio.microsoft.com/de/)
 - [x] Folien: VS > Getting Started
 - [x] Folien: VS > Projects & Solutions
-- [x] [vs-shortcuts](VS-SHORTCUTS.md)
-- [x] Git
-- [x] [git-commands](GIT-COMMANDS.md)
+- [x] Spicker: [vs-shortcuts](VS-SHORTCUTS.md)
+- [ ] Folien: Git > Getting Started
+- [x] Spicker: [git-commands](GIT-COMMANDS.md)
 
 Tools > Options > General > Color Theme
 
@@ -25,7 +25,7 @@ Tools > Options > Text Editor > All Languages > General > Line numbers
 - [x] Folien: C# > Getting Started
 - [x] Folien: C# > Classes
 - [x] Link: [csharp docs](https://docs.microsoft.com/de-de/dotnet/csharp/)
-- [x] Link: [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)- 
+- [x] Link: [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] Spicker: [C# Syntax](CSHARP-CHEATSHEET.md)
 - [x] Spicker: [Snippets](VS-CS-SNIPPETS.md)
 - [x] Demo: [Console](vadzims-solution/Demo-Console/Program.cs)
@@ -65,12 +65,23 @@ sln props > startup projects > current
 
 [commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/47cdb4921273819645e1aa0bb38a0e4368389f18)
 
-## M050 | LOOPS & ITERATORS
+## M050 | LOOPS
 
+- [x] Folien: C# > Loops
 - [x] Übung: [for-loop](vadzims-solution/Ü-M05-For-Loop/Program.cs)
-- [ ] iterators
+- [ ] [Klasse Random](CS-GK-DUS-V/M03ArrayNControls/MyRandom.cs)
+- [x] Übung: [Zahlenratespiel](vadzims-solution/Ü-M05-Zahlenratespiel/Program.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/521a35bad45e3af5bb5f9f92b6594322b8355d90)
+  
+## M060 | ARRAYS
+
+- [ ] Folien: C# > Arrays
+- [ ] Demo: [Arrays](vadzims-solution/Demo-Arrays/DArrays.cs)
+- [ ] iterator foreach
+- [ ] Übung: [Lotto](vadzims-solution/Ü-M06-Lotto/ÜLotto.cs)
+ 
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3071ac28b1ee9f2d747493e321cd69d1fc62ff17)
 
 DATA TYPES, OPERATORS
 
@@ -83,17 +94,6 @@ DATA TYPES, OPERATORS
 - [ ] HasFlag
 
 [commit]()
-      
-## M030 | ARRAYS & CONTROLS
-
-- [x] [Arrays](CS-GK-DUS-V/M03ArrayNControls/MyArray.cs)
-- [x] for, siehe Arrays
-- [x] while & do while, siehe Zahlenratespiel
-- [x] [Klasse Random](CS-GK-DUS-V/M03ArrayNControls/MyRandom.cs)
-- [x] [Lab Zahlenratespiel](CS-GK-DUS-V/M03Lab-Zahlenratespiel/Zahlenraten.cs)
-
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3071ac28b1ee9f2d747493e321cd69d1fc62ff17)
-
 ## M040 | METHODS
 
 - [x] arguments
