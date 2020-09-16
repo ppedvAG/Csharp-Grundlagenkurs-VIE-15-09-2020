@@ -2,7 +2,7 @@
 
 namespace Ü_M05_For_Loop
 {
-    class Program
+    class Üfor
     {
         static void Main(string[] args)
         {

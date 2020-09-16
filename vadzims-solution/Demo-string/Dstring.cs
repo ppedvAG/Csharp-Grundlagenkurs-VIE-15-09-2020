@@ -2,7 +2,7 @@
 
 namespace Demo_string
 {
-    class Program
+    class Dstring
     {
         static void Main(string[] args)
         {
@@ -43,6 +43,12 @@ DateTime.MaxValue: {DateTime.MaxValue}";
             // Console.WriteLine("str0: {0}", str0.ToString()); // NullReferenceException
 
             // =================================================
+            // string.Length & index in string
+            // public char this[int index] { get; }
+            string str6 = "abcde";
+            Console.WriteLine("str6.Length: {0}", str6.Length);
+            Console.WriteLine("str6[1]: {0}", str6[1]);
+
             Console.ReadKey();
         }
     }

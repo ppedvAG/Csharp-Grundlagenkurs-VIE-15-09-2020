@@ -69,9 +69,19 @@ sln props > startup projects > current
 
 - [x] Folien: C# > Loops
 - [x] Übung: [for-loop](vadzims-solution/Ü-M05-For-Loop/Program.cs)
+- [ ] [Klasse Random](CS-GK-DUS-V/M03ArrayNControls/MyRandom.cs)
 - [x] Übung: [Zahlenratespiel](vadzims-solution/Ü-M05-Zahlenratespiel/Program.cs)
 
-[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/a83b87ded944ad4cd2e426be4647e9332e44f8dd)
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/521a35bad45e3af5bb5f9f92b6594322b8355d90)
+  
+## M060 | ARRAYS
+
+- [ ] Folien: C# > Arrays
+- [ ] Demo: [Arrays](vadzims-solution/Demo-Arrays/DArrays.cs)
+- [ ] iterator foreach
+- [ ] Übung: [Lotto](vadzims-solution/Ü-M06-Lotto/ÜLotto.cs)
+ 
+[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3071ac28b1ee9f2d747493e321cd69d1fc62ff17)
 
 DATA TYPES, OPERATORS
 
@@ -84,17 +94,6 @@ DATA TYPES, OPERATORS
 - [ ] HasFlag
 
 [commit]()
-      
-## M030 | ARRAYS & CONTROLS
-
-- [x] [Arrays](CS-GK-DUS-V/M03ArrayNControls/MyArray.cs)
-- [x] for, siehe Arrays
-- [x] while & do while, siehe Zahlenratespiel
-- [x] [Klasse Random](CS-GK-DUS-V/M03ArrayNControls/MyRandom.cs)
-- [x] [Lab Zahlenratespiel](CS-GK-DUS-V/M03Lab-Zahlenratespiel/Zahlenraten.cs)
-- [ ] iterators
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3071ac28b1ee9f2d747493e321cd69d1fc62ff17)
-
 ## M040 | METHODS
 
 - [x] arguments

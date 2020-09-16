@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Demo_Console
 {
-    class Program
+    class DConsole
     {
         static void Main(string[] args)
         {

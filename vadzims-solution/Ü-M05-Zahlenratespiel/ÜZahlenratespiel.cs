@@ -2,7 +2,7 @@
 
 namespace Ü_M05_Zahlenratespiel
 {
-    class Program
+    class ÜZahlenratespiel
     {
         static void Main(string[] args)
         {
