@@ -21,13 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ü-M04-Switch-N-Enum", "Ü-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ü-M05-For-Loop", "Ü-M05-For-Loop\Ü-M05-For-Loop.csproj", "{77758988-E652-4F41-8C4A-8C66896DB4EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M05-Zahlenratespiel", "Ü-M05-Zahlenratespiel\Ü-M05-Zahlenratespiel.csproj", "{277B08EF-9F6B-4F55-848A-8E187C4F5794}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ü-M05-Zahlenratespiel", "Ü-M05-Zahlenratespiel\Ü-M05-Zahlenratespiel.csproj", "{277B08EF-9F6B-4F55-848A-8E187C4F5794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M06-Arrays", "Demo-Arrays\D-M06-Arrays.csproj", "{BD2F373A-53FE-4B97-8F27-C21D1FE427F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M06-Arrays", "Demo-Arrays\D-M06-Arrays.csproj", "{BD2F373A-53FE-4B97-8F27-C21D1FE427F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M06-Lotto", "Ü-M06-Lotto\Ü-M06-Lotto.csproj", "{7D9E0F59-B72E-472E-8CA3-30C2C0CB5331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ü-M06-Lotto", "Ü-M06-Lotto\Ü-M06-Lotto.csproj", "{7D9E0F59-B72E-472E-8CA3-30C2C0CB5331}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M07-Functions", "D-M07-Functions\D-M07-Functions.csproj", "{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M07-Functions", "D-M07-Functions\D-M07-Functions.csproj", "{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M08-Classes", "D-M08-Classes\D-M08-Classes.csproj", "{4960D8FA-5F8F-4280-B918-5A952BC88473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M08-Classes-Consumer", "D-M08-Classes-Consumer\D-M08-Classes-Consumer.csproj", "{BD572FDF-2014-4825-8145-3E8CD699063F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M08-Fuhrpark", "Ü-M08-Fuhrpark\Ü-M08-Fuhrpark.csproj", "{7171B33D-A26E-45A1-86D1-62E31E50E61D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +93,18 @@ Global
 		{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86F5D610-B165-41AE-87AA-03F4EE6A1BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4960D8FA-5F8F-4280-B918-5A952BC88473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4960D8FA-5F8F-4280-B918-5A952BC88473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4960D8FA-5F8F-4280-B918-5A952BC88473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4960D8FA-5F8F-4280-B918-5A952BC88473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD572FDF-2014-4825-8145-3E8CD699063F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD572FDF-2014-4825-8145-3E8CD699063F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD572FDF-2014-4825-8145-3E8CD699063F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD572FDF-2014-4825-8145-3E8CD699063F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7171B33D-A26E-45A1-86D1-62E31E50E61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7171B33D-A26E-45A1-86D1-62E31E50E61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7171B33D-A26E-45A1-86D1-62E31E50E61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7171B33D-A26E-45A1-86D1-62E31E50E61D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

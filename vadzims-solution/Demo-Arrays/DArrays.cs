@@ -10,6 +10,13 @@ namespace Demo_Arrays
             Console.WriteLine("M06 Arrays");
 
             // ===============================================
+            // ein Array anlegen
+            string[] stringArr1 = { "d", "t" };
+            string[] stringArr2 = new string[] { "d", "t" };
+            string[] stringArr3 = new string[2];
+
+
+            // ===============================================
             Console.WriteLine("Darf man verschiedene Datentypen in einem Array vereinen?");
             Console.WriteLine("Nein, weil gleich beim Definieren von Arrays man einen Datentyp angeben soll");
             // var[] vars = new var[] { 4, "d"}; // geht nicht

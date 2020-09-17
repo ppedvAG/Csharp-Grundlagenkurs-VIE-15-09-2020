@@ -162,7 +162,7 @@ static void Main(string text)
 ## VARIABLES
 
 Konvention - camelCase.
-
+Variablen in Klassen ohne Modifizierer sind private.
 Beim Deklarieren (ohne Initialisieren) bekommen die Variablen in C# ihre Default-Werte.
 
 **SEMANTIC SYNTAX**

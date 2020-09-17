@@ -2,7 +2,7 @@
 
 namespace Demo_char
 {
-    class Program
+    class Dchar
     {
         static void Main(string[] args)
         {

@@ -95,35 +95,20 @@ sln props > startup projects > current
 - [x] out & ref parameters & args
 - [x] Demo: [Methods](vadzims-solution/D-M07-Functions/DFunctions.cs)
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/8628565d717c043d3f12def3b79114ca47a13288)
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/4ae4912a50a3c5421c76b95eafd7fc1eb182ab5a)
 
+## M080 | CLASSES (Fortsetzung)
 
-
-DATA TYPES, OPERATORS
-
-- [x] Datentypen
-
-- [x] Operatoren
-
-
-
-- [ ] HasFlag
+- [x] Folien: C# > Types & Variables
+- [x] Demo: [Types](vadzims-solution/D-M08-Classes/Types.cs)
+- [x] Folien: C# > Props & Instances
+- [x] Demo: [props, modifier, members, methods](vadzims-solution/D-M08-Classes/PersonOhneCtor.cs)
+- [x] Demo: [constructor, destructor](vadzims-solution/D-M08-Classes/PersonMitCtor.cs)
+- [x] Demo: [fields](vadzims-solution/D-M08-Classes/PersonMitFeldOhneProp.cs)
+- [ ] Übung: [Transport](vadzims-solution/Ü-M08-Fuhrpark/Transportmittel.cs)
+- [ ] Übung: [TransportConsumer](vadzims-solution/Ü-M08-Fuhrpark/ÜFuhrpark.cs)
 
 [commit]()
-
-## M050 | CLASSES & OOP
-
-- [x] constructor
-- [x] fields
-- [x] props
-- [x] class methods
-- [x] access modifier
-- [x] inctances / objects
-- [x] destructor
-- [ ] [Ü Transport](/M5Fuhrpark/Transport.cs)
-- [ ] [Ü TransportConsumer](/M5Fuhrpark/FuhrparkApp.cs)
-
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/9e2084238f54f7829f57e17a1f58b7f1b5bc6a14)
 
 ## M060 | INHERITENCE / VERERBUNG
 
@@ -133,6 +118,7 @@ DATA TYPES, OPERATORS
 - [x] [Ü Flugzeug](M05Lab-Fuhrpark/Flugzeug.cs)
 - [x] [Ü PKW](M05Lab-Fuhrpark/PKW.cs)
 - [x] [Ü Schiff](M05Lab-Fuhrpark/Schiff.cs)
+- [ ] Übung: [static methods]()
 
 [commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3dd800a677f469fc10d9bcc914e6318965cb1295)
 
@@ -256,3 +242,6 @@ DATA TYPES, OPERATORS
 ## M020 | Debugging & Publishing
 
 commit
+
+- [ ] HasFlag
+- [ ] 
