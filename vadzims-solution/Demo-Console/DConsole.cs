@@ -23,6 +23,9 @@ namespace Demo_Console
             #endregion
 
             Console.Write("Hello World!");
+            // Konvention bei Klassenbezeichnern:
+            // Substantiv (Was-Wort) in Singular (Einzelform)
+            // z.b. Todo, Transportmittel usw.
 
             eingabe = Console.ReadLine();
 

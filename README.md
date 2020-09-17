@@ -108,13 +108,30 @@ sln props > startup projects > current
 - [ ] Übung: [Transport](vadzims-solution/Ü-M08-Fuhrpark/Transportmittel.cs)
 - [ ] Übung: [TransportConsumer](vadzims-solution/Ü-M08-Fuhrpark/ÜFuhrpark.cs)
 
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/7b5d895a35817ce66a6d57061b595a44602f8ef0)
+
+## M090 | FILE ACCESS & SERIALIZING​
+
+- [x] Folien: C# > File Access & Serializing
+- [x] Demo: [StreamReader & StreamWriter](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
+- [ ] SaveFileDialog & OpenFileDialog
+- [x] Demo: [JSON, serialize](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
+- [x] [M12 File Access & JSON](CS-GK-DUS-V/M12-Demo-File-Access/Program.cs)
+- [ ] [Ü Schreibe & Lese generisch und mit Open/SaveFileDialog]()
+
+## M010 | HTTPCLIENT
+
+- [x] Demo: [HttpClient & deserialize](vadzims-solution/D-M10-HttpClient/DHttpClient.cs)
+ 
+## M011 | INHERITENCE
+
+- [x] Folien: C# > Inheritence
+- [x] Demo: [virtual](vadzims-solution/D-M11-Inheritence/Superklasse.cs) & override methods
+- [x] Demo: [override](vadzims-solution/D-M11-Inheritence/Subklasse.cs)
+- [x] abstract methods
+
 [commit]()
 
-## M060 | INHERITENCE / VERERBUNG
-
-- [x] base
-- [x] virtual & override methods
-- [x] abstract methods
 - [x] [Ü Flugzeug](M05Lab-Fuhrpark/Flugzeug.cs)
 - [x] [Ü PKW](M05Lab-Fuhrpark/PKW.cs)
 - [x] [Ü Schiff](M05Lab-Fuhrpark/Schiff.cs)
@@ -176,15 +193,6 @@ sln props > startup projects > current
 
 [commit]()
 
-## M012 | File Access Dateizugriff​
-
-- [x] SaveFileDialog & OpenFileDialog
-- [x] StreamReader & StreamWriter
-- [x] JSON, serialize & deserialize 
-- [x] [M12 File Access & JSON](CS-GK-DUS-V/M12-Demo-File-Access/Program.cs)
-- [ ] [Ü Schreibe & Lese generisch und mit Open/SaveFileDialog]()
-
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/fe0010aca67a2be5ea1e69133ea703995c2e5238)
 
 Ü Anmeldeformular? / Gästeliste?
 
@@ -199,9 +207,7 @@ sln props > startup projects > current
 
 [commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/ab668d92efad4815b43ef0101c60435df68536be)
 
-## M014 | HttpClient
 
-- [x] [HttpClient](CS-GK-DUS-V/M14-Demo-HttpClient/Form1.cs)
       
 ## M015 | LINQ
 

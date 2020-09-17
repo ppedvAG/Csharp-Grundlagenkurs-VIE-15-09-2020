@@ -14,6 +14,8 @@ namespace Demo_Arrays
             string[] stringArr1 = { "d", "t" };
             string[] stringArr2 = new string[] { "d", "t" };
             string[] stringArr3 = new string[2];
+            // Oft sieht man im Namen von Arrays Pluralform von den Elementen, die im Array gespeichert sind
+            // z.B. numbers, todos, elements usw.
 
 
             // ===============================================
@@ -22,6 +24,19 @@ namespace Demo_Arrays
             // var[] vars = new var[] { 4, "d"}; // geht nicht
 
             string[] strings = new string[] { "s1", "s2" };
+
+
+            // ===============================================
+            Console.WriteLine("\n\nDarf man Arrays auch für komplexe Datentypen verwenden?");
+            Console.WriteLine("Ja:");            
+            DateTime dateTime1 = DateTime.Now;
+            DateTime dateTime2 = DateTime.UtcNow;
+            DateTime[] tArr = new DateTime[] { dateTime1, dateTime2 };
+            foreach (var item in tArr)
+            {
+                Console.WriteLine(item);
+            }
+
 
             // ===============================================
             // Methoden, die bei den Array-Instanzen angewendet werden können:
