@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M11-Inheritence", "D-M11-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M11-Inheritence", "Ü-M11-Inheritence\Ü-M11-Inheritence.csproj", "{D3DB100A-A4BB-4C87-A00B-FE115C24FC4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M12-Exceptions", "D-M12-Exceptions\D-M12-Exceptions.csproj", "{BAF47BC4-421A-47F8-92C6-9C77B20155A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{D3DB100A-A4BB-4C87-A00B-FE115C24FC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3DB100A-A4BB-4C87-A00B-FE115C24FC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3DB100A-A4BB-4C87-A00B-FE115C24FC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF47BC4-421A-47F8-92C6-9C77B20155A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF47BC4-421A-47F8-92C6-9C77B20155A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF47BC4-421A-47F8-92C6-9C77B20155A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF47BC4-421A-47F8-92C6-9C77B20155A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

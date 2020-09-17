@@ -133,14 +133,27 @@ sln props > startup projects > current
 - [x] Übung: [Flugzeug](vadzims-solution/Ü-M11-Inheritence/Flugzeug.cs)
 - [x] Übung: [PKW](vadzims-solution/Ü-M11-Inheritence/PKW.cs)
 - [x] Übung: [Schiff](vadzims-solution/Ü-M11-Inheritence/Schiff.cs)
-- [ ] Übung: [static methods](vadzims-solution/Ü-M11-Inheritence/Schiff.cs#static)
+- [x] Übung: [static methods](vadzims-solution/Ü-M11-Inheritence/Schiff.cs#static)
+
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/8e4408dd6cec15bef011179792d3b61d0c4ab185)
+
+## M012 | Exception-Handling​
+
+- [x] Folien: C# > Exceptions Handling
+- [ ] Link: [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
+- [x] Exception & throw
+- [x] try catch finally
+- [x] Exception types
+- [x] Custom Exceptions
+- [x] Demo: [Exception](vadzims-solution/D-M12-Exceptions/DExceptions.cs)
+- [x] Demo: [customized exception](vadzims-solution/D-M12-Exceptions/TooShortException.cs)
 
 [commit]()
 
 ## M070 | INTERFACES & POLYMORPHISM
 
+- [ ] Folien
 - [ ] interfaces
-- [ ] override vs overload
 - [ ] [Ü IKannAndereTransportieren](M05Lab-Fuhrpark/IKannAndereTransportieren.cs)
 - [ ] [Ü IKannRollen](M05Lab-Fuhrpark/IRollbar.cs)
 
@@ -179,17 +192,7 @@ sln props > startup projects > current
 
 Ü Einfacher Taschenrechner?
 
-## M011 | Exception-Handling​
 
-- [x] Exception & throw
-- [x] try catch finally
-- [x] Exception types
-- [x] Custom Exceptions
-- [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
-- [ ] [Demo-Exception](M08GenericDataStructures/MyList.cs)
-- [ ] [customized exception](M08GenericDataStructures/ItemDoesNotExist.cs)
-
-[commit]()
 
 
 Ü Anmeldeformular? / Gästeliste?
