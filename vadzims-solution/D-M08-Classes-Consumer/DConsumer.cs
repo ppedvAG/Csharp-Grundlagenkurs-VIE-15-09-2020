@@ -29,6 +29,7 @@ namespace D_M08_Classes_Consumer
 
             // Hier ist nur die Prop 'Nachname' nutzbar
             // Aber darf man auch andere Members der Klasse mindestens sehen?
+            // Antwort: nur die public-Members, auch die vererbten
             Console.WriteLine("\nMembers");
             foreach (var item in personOhneCtor.GetType().GetMembers())
             {
@@ -51,8 +52,52 @@ System.String Nachname
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine("keine Fields");
             // kommt nichts raus
             // hat jede Property ein entsprechendes Field??? #todo
+
+
+            // ======================================
+            // Konstruktoren
+            // PersonMitCtor personMitCtor = new PersonMitCtor(); // der leere automatische Konstruktor ist nicht mehr verfügbar
+            PersonMitCtor personMitCtor = new PersonMitCtor("Musternname"); // der leere automatische Konstruktor ist nicht mehr verfügbar
+            Console.WriteLine("personMitCtor.Nachname: {0}", personMitCtor.Nachname);
+
+            // ======================================
+            // mehrere Konstruktoren
+            Console.WriteLine("\n\nKonstruktoren");
+            PersonMitCtor personMitCtor1 = new PersonMitCtor();
+            PersonMitCtor personMitCtor2 = new PersonMitCtor(personMitCtor);
+            Console.WriteLine("personMitCtor2.Nachname: {0}", personMitCtor2.Nachname);
+            foreach (var item in personMitCtor2.GetType().GetProperties()) // nur public sind sichtbar
+            {
+                Console.WriteLine("personMitCtor2.Prop: {0}", item);
+            }
+
+
+            // ======================================
+            // Klasse mit Feldern ohne Properties
+            Console.WriteLine("\n\nKlassen mit Feldern");
+            PersonMitFeldOhneProp personMitFeldOhneProp = new PersonMitFeldOhneProp();
+            personMitFeldOhneProp.nachname = "NN";
+            Console.WriteLine("personMitFeldOhneProp.nachname: {0}", personMitFeldOhneProp.nachname); // NN
+            Console.WriteLine("\nFields");
+            foreach (var item in personMitFeldOhneProp.GetType().GetFields()) // nur public
+            {
+                Console.WriteLine(item);
+            }
+
+            PersonMitFeldOhneProp personMitFeldOhneProp1 = new PersonMitFeldOhneProp("nn");
+            Console.WriteLine("personMitFeldOhneProp1.nachname: {0}", personMitFeldOhneProp1.nachname); // nn
+
+            // Austesten SetVorname
+            personMitFeldOhneProp1.SetVorname("vn");
+            // Console.WriteLine("personMitFeldOhneProp1.vorname: {0}", personMitFeldOhneProp1.vorname); 
+            // geht nicht, weil private und kein öffentlicher Getter
+            Console.WriteLine("personMitFeldOhneProp1.GetVorname(): {0}", personMitFeldOhneProp1.GetVorname()); 
+
+            
+
 
             Console.ReadKey();
         }

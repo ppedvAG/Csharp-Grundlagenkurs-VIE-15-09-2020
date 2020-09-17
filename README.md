@@ -97,27 +97,16 @@ sln props > startup projects > current
 
 [commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/4ae4912a50a3c5421c76b95eafd7fc1eb182ab5a)
 
-
-
-DATA TYPES, OPERATORS
-- [x] Datentypen
-- [x] Operatoren
-- [ ] HasFlag
-[commit]()
-
 ## M080 | CLASSES (Fortsetzung)
 
 - [x] Folien: C# > Types & Variables
+- [x] Demo: [Types](vadzims-solution/D-M08-Classes/Types.cs)
 - [x] Folien: C# > Props & Instances
-- [x] constructor
-- [ ] fields
-- [x] props
-- [x] class methods
-- [x] access modifier
-- [x] inctances / objects
-- [ ] destructor
-- [ ] [Ü Transport](/M5Fuhrpark/Transport.cs)
-- [ ] [Ü TransportConsumer](/M5Fuhrpark/FuhrparkApp.cs)
+- [x] Demo: [props, modifier, members, methods](vadzims-solution/D-M08-Classes/PersonOhneCtor.cs)
+- [x] Demo: [constructor, destructor](vadzims-solution/D-M08-Classes/PersonMitCtor.cs)
+- [x] Demo: [fields](vadzims-solution/D-M08-Classes/PersonMitFeldOhneProp.cs)
+- [ ] Übung: [Transport](vadzims-solution/Ü-M08-Fuhrpark/Transportmittel.cs)
+- [ ] Übung: [TransportConsumer](vadzims-solution/Ü-M08-Fuhrpark/ÜFuhrpark.cs)
 
 [commit]()
 
@@ -129,6 +118,7 @@ DATA TYPES, OPERATORS
 - [x] [Ü Flugzeug](M05Lab-Fuhrpark/Flugzeug.cs)
 - [x] [Ü PKW](M05Lab-Fuhrpark/PKW.cs)
 - [x] [Ü Schiff](M05Lab-Fuhrpark/Schiff.cs)
+- [ ] Übung: [static methods]()
 
 [commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3dd800a677f469fc10d9bcc914e6318965cb1295)
 
@@ -252,3 +242,6 @@ DATA TYPES, OPERATORS
 ## M020 | Debugging & Publishing
 
 commit
+
+- [ ] HasFlag
+- [ ] 
