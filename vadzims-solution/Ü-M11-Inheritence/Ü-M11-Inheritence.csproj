@@ -3,11 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Ü_M08_Fuhrpark</RootNamespace>
+    <RootNamespace>Ü_M11_Inheritence</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
-  </ItemGroup>
 
 </Project>

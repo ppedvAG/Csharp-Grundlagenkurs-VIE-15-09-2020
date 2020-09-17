@@ -108,19 +108,34 @@ sln props > startup projects > current
 - [ ] Übung: [Transport](vadzims-solution/Ü-M08-Fuhrpark/Transportmittel.cs)
 - [ ] Übung: [TransportConsumer](vadzims-solution/Ü-M08-Fuhrpark/ÜFuhrpark.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/7b5d895a35817ce66a6d57061b595a44602f8ef0)
 
-## M060 | INHERITENCE / VERERBUNG
+## M090 | FILE ACCESS & SERIALIZING​
 
-- [x] base
-- [x] virtual & override methods
+- [x] Folien: C# > File Access & Serializing
+- [x] Demo: [StreamReader & StreamWriter](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
+- [ ] SaveFileDialog & OpenFileDialog
+- [x] Demo: [JSON, serialize](vadzims-solution/D-M09-FileAccess/DFileAccess.cs)
+
+## M010 | HTTPCLIENT
+
+- [x] Demo: [HttpClient & deserialize](vadzims-solution/D-M10-HttpClient/DHttpClient.cs)
+ 
+## M011 | INHERITENCE
+
+- [x] Folien: C# > Inheritence
+- [x] Demo: [virtual](vadzims-solution/D-M11-Inheritence/Superklasse.cs) & override methods
+- [x] Demo: [override](vadzims-solution/D-M11-Inheritence/Subklasse.cs)
 - [x] abstract methods
-- [x] [Ü Flugzeug](M05Lab-Fuhrpark/Flugzeug.cs)
-- [x] [Ü PKW](M05Lab-Fuhrpark/PKW.cs)
-- [x] [Ü Schiff](M05Lab-Fuhrpark/Schiff.cs)
-- [ ] Übung: [static methods]()
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3dd800a677f469fc10d9bcc914e6318965cb1295)
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/9640d02427f501b6b77ff833bdb700cc7664c5be)
+
+- [x] Übung: [Flugzeug](vadzims-solution/Ü-M11-Inheritence/Flugzeug.cs)
+- [x] Übung: [PKW](vadzims-solution/Ü-M11-Inheritence/PKW.cs)
+- [x] Übung: [Schiff](vadzims-solution/Ü-M11-Inheritence/Schiff.cs)
+- [ ] Übung: [static methods](vadzims-solution/Ü-M11-Inheritence/Schiff.cs#static)
+
+[commit]()
 
 ## M070 | INTERFACES & POLYMORPHISM
 
@@ -129,7 +144,7 @@ sln props > startup projects > current
 - [ ] [Ü IKannAndereTransportieren](M05Lab-Fuhrpark/IKannAndereTransportieren.cs)
 - [ ] [Ü IKannRollen](M05Lab-Fuhrpark/IRollbar.cs)
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/51975825d1e35a972c76903b78ce90d8adade7b0)
+[commit]()
 
 ## M080 | GENERIC DATA STRUCTURES
 
@@ -150,7 +165,7 @@ sln props > startup projects > current
 - [x] component props
 - [x] [TicTacToe](CS-GK-DUS-V/M09-Demo-WinForms/Program.cs)
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/81f458f699c412fc71692bff69b01e193ab4c99c)
+[commit]()
 
 ## M010 | DELEGATES & EVENTS
 
@@ -160,7 +175,7 @@ sln props > startup projects > current
 - [x] event handler
 - [x] [M10 Delegates](CS-GK-DUS-V/M10-Demo-Delegates/Program.cs)
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/3e75cda363bd72d129509bffda17376c168b130a)
+[commit]()
 
 Ü Einfacher Taschenrechner?
 
@@ -176,15 +191,6 @@ sln props > startup projects > current
 
 [commit]()
 
-## M012 | File Access Dateizugriff​
-
-- [x] SaveFileDialog & OpenFileDialog
-- [x] StreamReader & StreamWriter
-- [x] JSON, serialize & deserialize 
-- [x] [M12 File Access & JSON](CS-GK-DUS-V/M12-Demo-File-Access/Program.cs)
-- [ ] [Ü Schreibe & Lese generisch und mit Open/SaveFileDialog]()
-
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/fe0010aca67a2be5ea1e69133ea703995c2e5238)
 
 Ü Anmeldeformular? / Gästeliste?
 
@@ -197,11 +203,9 @@ sln props > startup projects > current
 - [x] [Demo Task](CS-GK-DUS-V/M13-Demo-Async-Await/MyTask.cs)
 - [ ] siehe Fuhrpark, zufälliges Erzeugen
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/ab668d92efad4815b43ef0101c60435df68536be)
+[commit]()
 
-## M014 | HttpClient
 
-- [x] [HttpClient](CS-GK-DUS-V/M14-Demo-HttpClient/Form1.cs)
       
 ## M015 | LINQ
 
@@ -211,7 +215,7 @@ sln props > startup projects > current
 
 - [x] [DI](CS-GK-DUS-V/M16-Experiment-Dependency-Injection/M16Main.cs)
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/e0455abfe1e7551e8815e5ab5edafe5ae2c8583f)
+[commit]()
 
 ## M017 | Timing Klassen
 
@@ -219,7 +223,7 @@ sln props > startup projects > current
 - [ ] [Klasse Stopwatch](M15Demo-Timing/Form1.cs#Stopwatch)
 - [ ] [Ü kollidierende Buttons mit Timing]
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/93e7be8a2860b2189371e34c7ddb455de7718346)
+[commit]()
  
 ## M018 | Unit-Tests
 
@@ -237,7 +241,7 @@ sln props > startup projects > current
 - [x] DBSet & Entities
 - [x] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
 
-[commit](https://github.com/ppedvAG/CSharp-Grundlagenkurs-DUS-250820/commit/f03e6c2045e25b143c1cdbba8fc2031cd1230933)
+[commit]()
 
 ## M020 | Debugging & Publishing
 

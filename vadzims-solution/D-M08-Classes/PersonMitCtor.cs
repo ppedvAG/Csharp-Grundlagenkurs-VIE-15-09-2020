@@ -31,6 +31,10 @@ namespace D_M08_Classes
             Alter = p.Alter;
         }
 
+        // Man spart die Tipparbeit, 
+        // wenn man erst die Props anlegt und dann das Snippet ctor ausführt
+        // oder auf den Schraubenzieher bei der Klasse klickt und durch Quick Actions den Konstruktor anlegt
+
         // wird ausgeführt, wenn eine Instanz gelöscht wird
         ~PersonMitCtor()
         {

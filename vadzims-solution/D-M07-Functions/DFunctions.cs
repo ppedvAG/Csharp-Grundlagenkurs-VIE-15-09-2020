@@ -15,6 +15,10 @@ namespace D_M07_Functions
             int[] numbers = new int[] { 4, 5, 5, 8 };
             int[] numbers2 = new int[] { 4, 5, 6, 8 };
 
+
+            // Bemerkung: Funktionen dürfen for ihrer Definition aufgerufen werden
+
+
             // klassische Variante
             int[] ReplaceDuplicate(int[] zahlen)
             {
