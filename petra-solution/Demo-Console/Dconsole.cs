@@ -31,6 +31,10 @@ namespace Demo_Console
             Console.WriteLine("Sie haben {0} eingegeben.", input); //ASCII Code
 
             Console.WriteLine(args); //System.String[]
+            Console.WriteLine("args.Length: {0}", args.Length);
+
+            if((args.Length>0))
+                    Console.WriteLine("args[0]: {0}", args[0]);
 
             // ==============================
             //Encoding

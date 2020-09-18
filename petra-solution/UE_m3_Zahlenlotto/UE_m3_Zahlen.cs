@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace UE_m3_Zahlenlotto
 {
@@ -13,7 +14,7 @@ namespace UE_m3_Zahlenlotto
             Console.WriteLine("Variante 1 / Teil 1");
             Random rnd = new Random();
 
-            int zufallszahl = rnd.Next(1,6);
+            int zufallszahl = rnd.Next(1, 6);
             int zahlBenutzer;
 
             Console.Write("Bitte eine Zahl zwischen 1 und 5 eingeben: ");
@@ -54,9 +55,64 @@ namespace UE_m3_Zahlenlotto
             }
 
             Console.WriteLine("Richtig, die Zahl war {0}, Sie haben {1} Versuche benötigt.", zufallszahl2, anzahlVersuche);
+            #endregion
+
+            #region Variante2_Lotto
+            int ersteZahl;
+            int zweiteZahl;
+            int dritteZahl;
+
+            Console.Write("Bitte geben Sie eine Zahl zwischen 1 und 10 ein: ");
+            ersteZahl = int.Parse(Console.ReadLine());
+            Console.Write("Bitte geben Sie eine Zahl zwischen 1 und 10 ein: ");
+            zweiteZahl = int.Parse(Console.ReadLine());
+            Console.Write("Bitte geben Sie eine Zahl zwischen 1 und 10 ein: ");
+            dritteZahl = int.Parse(Console.ReadLine());
+
+            int[] eingegZahlen = new int[] { ersteZahl, zweiteZahl, dritteZahl };
 
 
+            foreach (var item in eingegZahlen)
+            {
+                Console.Write(item);
+            }
 
+            Console.WriteLine();
+
+            //Zufallszahlen
+            int zufallsZahl1 = rnd.Next(1, 11);
+            int zufallsZahl2 = rnd.Next(1, 11);
+            int zufallsZahl3 = rnd.Next(1, 11);
+
+            while (zufallsZahl1 == zufallsZahl2)
+            {
+                zufallsZahl2 = rnd.Next(1, 11);
+            }
+
+            while (zufallsZahl2 == zufallsZahl3 || zufallsZahl1 == zufallsZahl3)
+            {
+                zufallsZahl3 = rnd.Next(1, 11);
+            }
+            
+            int[] zufallsZahlen = new int[] { zufallsZahl1, zufallsZahl2, zufallsZahl3 };
+
+
+            Console.WriteLine("1. Gewinnzahl: {0}", zufallsZahl1);
+            Console.WriteLine("2. Gewinnzahl: {0}", zufallsZahl2);
+            Console.WriteLine("3. Gewinnzahl: {0}", zufallsZahl3);
+
+            //Vergleich
+            int countZahlen = 0;
+
+            for (int i = 0; i < eingegZahlen.Length; i++)
+            {
+                if (zufallsZahlen.Contains(eingegZahlen[i]))
+                {
+                    countZahlen++;
+                }
+            }
+
+            Console.WriteLine("Du hast {0} Zahl(en) richtig eingetippt.", countZahlen);
 
             #endregion
 

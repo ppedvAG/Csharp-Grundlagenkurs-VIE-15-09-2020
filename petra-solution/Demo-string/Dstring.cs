@@ -51,6 +51,7 @@ DateTime.MaxValue: {DateTime.MaxValue}";
             Console.WriteLine("Index 1: {0}", str6[1]);
 
 
+
             Console.ReadKey();
         }
     }

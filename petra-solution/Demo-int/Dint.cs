@@ -29,7 +29,7 @@ namespace Demo_int
 
             #endregion
 
-            // ================
+            // ===========================
             //defalut-Wert
             int i0;
             // Console.WriteLine("i0: {0}", i0); //geht nicht weil kein Wert bei i0
@@ -64,12 +64,11 @@ namespace Demo_int
             int i8 = (int)dbl;
             Console.WriteLine("i8: {0}", i8); // 4
 
-
-
-
-
-
             #endregion
+
+            // ===========================
+            // 3/5 ergibt eine ganze Zahl oder Double?
+            // Antwort: eine 0 (ganze Zahl)
 
 
 
