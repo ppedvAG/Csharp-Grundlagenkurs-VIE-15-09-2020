@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M14-GenericStructures", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M15-WinFormsFramework", "D-M15-WinFormsFramework\D-M15-WinFormsFramework.csproj", "{D1B923BC-3858-4DB7-B57F-3EF014850BF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M16-Delegates", "D-M16-Delegates\D-M16-Delegates.csproj", "{313B01EB-F483-4D17-9790-AF29E18A48DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313B01EB-F483-4D17-9790-AF29E18A48DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313B01EB-F483-4D17-9790-AF29E18A48DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313B01EB-F483-4D17-9790-AF29E18A48DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313B01EB-F483-4D17-9790-AF29E18A48DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
