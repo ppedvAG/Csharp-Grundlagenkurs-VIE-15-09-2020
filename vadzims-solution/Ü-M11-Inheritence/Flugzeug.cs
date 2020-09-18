@@ -20,4 +20,6 @@ namespace Ü_M11_Inheritence
             return base.BeschreibeMich() + $"\nMaxFlugHöhe: {MaxFlugHöhe}";
         }
     }
+
+
 }

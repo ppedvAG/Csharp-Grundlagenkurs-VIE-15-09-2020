@@ -33,17 +33,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M08-Classes", "D-M08-Clas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M08-Classes-Consumer", "D-M08-Classes-Consumer\D-M08-Classes-Consumer.csproj", "{BD572FDF-2014-4825-8145-3E8CD699063F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M08-Fuhrpark", "Ü-M08-Fuhrpark\Ü-M08-Fuhrpark.csproj", "{7171B33D-A26E-45A1-86D1-62E31E50E61D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ü-M08-Fuhrpark", "Ü-M08-Fuhrpark\Ü-M08-Fuhrpark.csproj", "{7171B33D-A26E-45A1-86D1-62E31E50E61D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M09-FileAccess", "D-M09-FileAccess\D-M09-FileAccess.csproj", "{45158C77-0F98-42F0-85FF-DFB0B229CC72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M09-FileAccess", "D-M09-FileAccess\D-M09-FileAccess.csproj", "{45158C77-0F98-42F0-85FF-DFB0B229CC72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M10-HttpClient", "D-M10-HttpClient\D-M10-HttpClient.csproj", "{63789485-8D88-4E86-B222-96E0CAA7BFB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M10-HttpClient", "D-M10-HttpClient\D-M10-HttpClient.csproj", "{63789485-8D88-4E86-B222-96E0CAA7BFB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M11-Inheritence", "D-M11-Inheritence\D-M11-Inheritence.csproj", "{E04D59EE-4641-40FA-B863-5D8E943BCC80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M11-Inheritence", "D-M11-Inheritence\D-M11-Inheritence.csproj", "{E04D59EE-4641-40FA-B863-5D8E943BCC80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M11-Inheritence", "Ü-M11-Inheritence\Ü-M11-Inheritence.csproj", "{D3DB100A-A4BB-4C87-A00B-FE115C24FC4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ü-M11-Inheritence", "Ü-M11-Inheritence\Ü-M11-Inheritence.csproj", "{D3DB100A-A4BB-4C87-A00B-FE115C24FC4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M12-Exceptions", "D-M12-Exceptions\D-M12-Exceptions.csproj", "{BAF47BC4-421A-47F8-92C6-9C77B20155A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M12-Exceptions", "D-M12-Exceptions\D-M12-Exceptions.csproj", "{BAF47BC4-421A-47F8-92C6-9C77B20155A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M13-Interfaces", "Ü-M13-Interfaces\Ü-M13-Interfaces.csproj", "{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{BAF47BC4-421A-47F8-92C6-9C77B20155A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF47BC4-421A-47F8-92C6-9C77B20155A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF47BC4-421A-47F8-92C6-9C77B20155A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

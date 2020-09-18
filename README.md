@@ -127,6 +127,7 @@ sln props > startup projects > current
 - [x] Demo: [virtual](vadzims-solution/D-M11-Inheritence/Superklasse.cs) & override methods
 - [x] Demo: [override](vadzims-solution/D-M11-Inheritence/Subklasse.cs)
 - [x] abstract methods
+- [x] POLYMORPHISM
 
 [commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/9640d02427f501b6b77ff833bdb700cc7664c5be)
 
@@ -148,16 +149,18 @@ sln props > startup projects > current
 - [x] Demo: [Exception](vadzims-solution/D-M12-Exceptions/DExceptions.cs)
 - [x] Demo: [customized exception](vadzims-solution/D-M12-Exceptions/TooShortException.cs)
 
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/bbf734e1971c1d956b08a40294f018e4ffa501f6)
+
+## M013 | INTERFACES
+
+- [x] Folien: C# > Interfaces
+- [x] Übung: [IKannAndereTransportieren](vadzims-solution/Ü-M13-Interfaces/IKannAndereTransportieren.cs)
+- [x] Übung: [Flugzeug: I](vadzims-solution/Ü-M13-Interfaces/Flugzeug.cs)
+
 [commit]()
 
-## M070 | INTERFACES & POLYMORPHISM
-
-- [ ] Folien
-- [ ] interfaces
-- [ ] [Ü IKannAndereTransportieren](M05Lab-Fuhrpark/IKannAndereTransportieren.cs)
-- [ ] [Ü IKannRollen](M05Lab-Fuhrpark/IRollbar.cs)
-
-[commit]()
+<!-- Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
+Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 
 ## M080 | GENERIC DATA STRUCTURES
 
@@ -192,9 +195,6 @@ sln props > startup projects > current
 
 Ü Einfacher Taschenrechner?
 
-
-
-
 Ü Anmeldeformular? / Gästeliste?
 
 ## M013 | TAP (async/await)
@@ -207,8 +207,6 @@ sln props > startup projects > current
 - [ ] siehe Fuhrpark, zufälliges Erzeugen
 
 [commit]()
-
-
       
 ## M015 | LINQ
 

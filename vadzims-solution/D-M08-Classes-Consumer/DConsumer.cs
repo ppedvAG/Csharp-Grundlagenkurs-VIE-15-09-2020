@@ -94,9 +94,7 @@ System.String Nachname
             personMitFeldOhneProp1.SetVorname("vn");
             // Console.WriteLine("personMitFeldOhneProp1.vorname: {0}", personMitFeldOhneProp1.vorname); 
             // geht nicht, weil private und kein öffentlicher Getter
-            Console.WriteLine("personMitFeldOhneProp1.GetVorname(): {0}", personMitFeldOhneProp1.GetVorname()); 
-
-            
+            Console.WriteLine("personMitFeldOhneProp1.GetVorname(): {0}", personMitFeldOhneProp1.GetVorname());
 
 
             Console.ReadKey();

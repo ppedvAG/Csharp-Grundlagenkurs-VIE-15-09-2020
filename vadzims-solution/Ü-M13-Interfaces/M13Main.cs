@@ -1,0 +1,40 @@
+﻿using System;
+
+namespace Ü_M13_Interfaces
+{
+    class M13Main
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("M13 Übung Interfaces");
+
+            Flugzeug flugzeug = new Flugzeug("Boeing", 2_000_000.34, 400, 11, 34_999, 15);
+
+            // Transport zum Beladen
+            Transportmittel t1 = new Transportmittel("PKW", 100_000.00, 230);
+            Transportmittel t2 = new Transportmittel("Motorrad", 30_000.00, 150);
+            Transportmittel[] tArr = new Transportmittel[] { t1, t2 };
+
+            // Flugzeug beladen
+            Console.WriteLine("flugzeug.AktLadungAnzahl: {0}", flugzeug.AktLadungAnzahl);
+            foreach (var item in tArr)
+            {
+                Console.WriteLine(item.BeschreibeMich());
+            }
+            flugzeug.Belade(tArr);
+            Console.WriteLine("flugzeug.AktLadungAnzahl: {0}", flugzeug.AktLadungAnzahl);
+
+
+            // Flugzeug entladen
+            tArr = new Transportmittel[] { t1 };
+            flugzeug.Entlade(tArr);
+            Console.WriteLine("\nflugzeug.AktLadungAnzahl: {0}", flugzeug.AktLadungAnzahl);
+            foreach (var item in flugzeug.AktTransMittelLadung)
+            {
+                Console.WriteLine(item.BeschreibeMich());
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
