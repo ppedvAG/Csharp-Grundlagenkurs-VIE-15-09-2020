@@ -60,6 +60,52 @@ namespace Demo_Arrays
             Array.Copy(zahlen, restArr, 2);
             // für die weiteren Methoden schau in der Definition der Klasse Array
 
+
+            // ===============================================
+            // Zwei Arrays zusammenführen mit Concat() von LINQ
+            //public Transportmittel[] Belade(Transportmittel[] transport)
+            //{
+            //    Transportmittel[] neueLadung = AktTransMittelLadung.Concat(transport).ToArray();
+            //    AktTransMittelLadung = neueLadung;
+            //    return AktTransMittelLadung;
+            //}
+
+
+            // ===============================================
+            // leere Arrays
+            // #todo
+            // CA1825: avoid zero-length array allocations! Use Empty instead
+            // die Länge muss beim Anlegen von Arrays nicht unbedingt angegeben werden
+            // Transportmittel[] neueLadung = Array.Empty<Transportmittel>();
+            // Empty ist nicht gleich null!
+
+
+            // ===============================================
+            // Element aus dem Array löschen
+            //public int Entlade(Transportmittel[] transportsZuEntladen)
+            //{              
+            //    Transportmittel[] neueLadung = AktTransMittelLadung;
+            //    foreach (var item in transportsZuEntladen)
+            //    {
+            //        neueLadung = neueLadung.Where(el => el != item).ToArray();
+            //    }
+            //    AktTransMittelLadung = neueLadung;
+            //    AktLadungAnzahl = AktTransMittelLadung.Length;
+            //    return AktLadungAnzahl;
+            //}
+
+            // oder
+            //            Non - LINQ: (.NET Framework 2.0)
+
+            //            static bool isNotFour(int n)
+            //            {
+            //                return n != 4;
+            //            }
+
+            //            int[] numbers = { 1, 3, 4, 9, 2 };
+            //            numbers = Array.FindAll(numbers, isNotFour).ToArray();
+
+
             // ===============================================
             // Mehrdimesionale Arrays
 

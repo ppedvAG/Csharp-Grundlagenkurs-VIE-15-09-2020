@@ -127,36 +127,52 @@ sln props > startup projects > current
 - [x] Demo: [virtual](vadzims-solution/D-M11-Inheritence/Superklasse.cs) & override methods
 - [x] Demo: [override](vadzims-solution/D-M11-Inheritence/Subklasse.cs)
 - [x] abstract methods
+- [x] Polymorphysm
 
 [commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/9640d02427f501b6b77ff833bdb700cc7664c5be)
 
 - [x] Übung: [Flugzeug](vadzims-solution/Ü-M11-Inheritence/Flugzeug.cs)
 - [x] Übung: [PKW](vadzims-solution/Ü-M11-Inheritence/PKW.cs)
 - [x] Übung: [Schiff](vadzims-solution/Ü-M11-Inheritence/Schiff.cs)
-- [ ] Übung: [static methods](vadzims-solution/Ü-M11-Inheritence/Schiff.cs#static)
+- [x] Übung: [static methods](vadzims-solution/Ü-M11-Inheritence/Schiff.cs#static)
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/8e4408dd6cec15bef011179792d3b61d0c4ab185)
 
-## M070 | INTERFACES & POLYMORPHISM
+## M012 | Exception-Handling​
 
-- [ ] interfaces
-- [ ] override vs overload
-- [ ] [Ü IKannAndereTransportieren](M05Lab-Fuhrpark/IKannAndereTransportieren.cs)
-- [ ] [Ü IKannRollen](M05Lab-Fuhrpark/IRollbar.cs)
+- [x] Folien: C# > Exceptions Handling
+- [ ] Link: [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
+- [x] Exception & throw
+- [x] try catch finally
+- [x] Exception types
+- [x] Custom Exceptions
+- [x] Demo: [Exception](vadzims-solution/D-M12-Exceptions/DExceptions.cs)
+- [x] Demo: [customized exception](vadzims-solution/D-M12-Exceptions/TooShortException.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/bbf734e1971c1d956b08a40294f018e4ffa501f6)
 
-## M080 | GENERIC DATA STRUCTURES
+## M013 | INTERFACES
 
-- [ ] [List`<T>`](/M8GenericDataStructures/MyList.cs)
+- [x] Folien: C# > Interfaces
+- [x] Übung: [IKannAndereTransportieren](vadzims-solution/Ü-M13-Interfaces/IKannAndereTransportieren.cs)
+- [x] Übung: [Flugzeug: I](vadzims-solution/Ü-M13-Interfaces/Flugzeug.cs)
+
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/c2937290c381a370c2f1b10e7432eb7ac701d9e3)
+
+<!-- Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
+Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
+
+## M014 | GENERIC DATA STRUCTURES
+
+- [x] Folien: C# > Generic Data Structures
+- [x] Demo: [List`<T>`](vadzims-solution/D-M14-GenericStructures/Program.cs)
 - [ ] [Stack`<T>`](/M8GenericDataStructures/MyStack.cs)
 - [ ] [Queue`<T>`](/M8GenericDataStructures/MyQueue.cs)
 - [ ] [KeyValuePair`<T1, T2>`](/M8GenericDataStructures/MyKeyValuePair.cs)
 - [ ] [Dictionary`<T1, T2>`](/M8GenericDataStructures/MyDictionary.cs)
-- [ ] Hachtable
 - [ ] [Ü Passagierliste](/M5Fuhrpark/FuhrparkApp.cs)
-- [ ] Warteschlange
-- [ ] Ü Lab 8 
+
+[commit]()
 
 ## M090 | WINDOWS FORMS
 
@@ -179,19 +195,6 @@ sln props > startup projects > current
 
 Ü Einfacher Taschenrechner?
 
-## M011 | Exception-Handling​
-
-- [x] Exception & throw
-- [x] try catch finally
-- [x] Exception types
-- [x] Custom Exceptions
-- [ ] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
-- [ ] [Demo-Exception](M08GenericDataStructures/MyList.cs)
-- [ ] [customized exception](M08GenericDataStructures/ItemDoesNotExist.cs)
-
-[commit]()
-
-
 Ü Anmeldeformular? / Gästeliste?
 
 ## M013 | TAP (async/await)
@@ -204,8 +207,6 @@ sln props > startup projects > current
 - [ ] siehe Fuhrpark, zufälliges Erzeugen
 
 [commit]()
-
-
       
 ## M015 | LINQ
 
@@ -248,4 +249,4 @@ sln props > startup projects > current
 commit
 
 - [ ] HasFlag
-- [ ] 
+- [ ] Hachtable

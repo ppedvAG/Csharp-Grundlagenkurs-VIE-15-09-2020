@@ -76,6 +76,7 @@ StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.Http
   },
                 ...
                 */
+
                 // Todo todo = (Todo)JsonConvert.DeserializeObject(respContent); // geht, aber eine Exception wird geworfen "unable to cast JObject to Todo"
                 Todo todo = JsonConvert.DeserializeObject<Todo>(respContent); // geht, keine Exception
                 Console.WriteLine("todo.GetType(): {0}", todo.GetType());
