@@ -172,14 +172,15 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 - [ ] [Dictionary`<T1, T2>`](/M8GenericDataStructures/MyDictionary.cs)
 - [ ] [Ü Passagierliste](/M5Fuhrpark/FuhrparkApp.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/0e0a75391d00fd0242c2a922e114a4054373db7f)
 
-## M090 | WINDOWS FORMS
+## M015 | WINDOWS FORMS
 
 - [x] partial classes
 - [x] widgets / components
 - [x] component props
-- [x] [TicTacToe](CS-GK-DUS-V/M09-Demo-WinForms/Program.cs)
+- [x] Demo: [TicTacToe](vadzims-solution/D-M15-WinFormsFramework/Form1.cs)
+- [ ] Übung: Das Spiel weiterentwickeln (neu start, gewinne zählen, abbrechen)
 
 [commit]()
 
@@ -212,11 +213,6 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 
 - [x] [LINQ Befehle](CS-GK-DUS-V/M15-Demo-LINQ/M15DemoMain.cs)
 
-## M016 | Dependency Injection
-
-- [x] [DI](CS-GK-DUS-V/M16-Experiment-Dependency-Injection/M16Main.cs)
-
-[commit]()
 
 ## M017 | Timing Klassen
 
@@ -241,6 +237,12 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 - [x] DBContext
 - [x] DBSet & Entities
 - [x] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
+
+[commit]()
+
+## M016 | Dependency Injection
+
+- [x] [DI](CS-GK-DUS-V/M16-Experiment-Dependency-Injection/M16Main.cs)
 
 [commit]()
 

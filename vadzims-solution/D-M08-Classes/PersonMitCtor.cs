@@ -7,6 +7,8 @@ namespace D_M08_Classes
     public class PersonMitCtor
     {
         public string Nachname { get; set; }
+        // internal Props sind mit Herz in Intellisence 
+        // und in der Memberliste in Solution Explorer markiert
         internal string Vorname { get; set; }
         private int Alter { get; set; }
 

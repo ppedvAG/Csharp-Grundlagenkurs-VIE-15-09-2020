@@ -45,9 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ü-M11-Inheritence", "Ü-M1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M12-Exceptions", "D-M12-Exceptions\D-M12-Exceptions.csproj", "{BAF47BC4-421A-47F8-92C6-9C77B20155A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M13-Interfaces", "Ü-M13-Interfaces\Ü-M13-Interfaces.csproj", "{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ü-M13-Interfaces", "Ü-M13-Interfaces\Ü-M13-Interfaces.csproj", "{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M14-GenericStructures", "D-M14-GenericStructures\D-M14-GenericStructures.csproj", "{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M14-GenericStructures", "D-M14-GenericStructures\D-M14-GenericStructures.csproj", "{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M15-WinFormsFramework", "D-M15-WinFormsFramework\D-M15-WinFormsFramework.csproj", "{D1B923BC-3858-4DB7-B57F-3EF014850BF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B923BC-3858-4DB7-B57F-3EF014850BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
