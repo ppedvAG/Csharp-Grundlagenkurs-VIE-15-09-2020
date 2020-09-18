@@ -68,9 +68,9 @@ sln props > startup projects > current
 ## M050 | LOOPS
 
 - [x] Folien: C# > Loops
-- [x] Übung: [for-loop](vadzims-solution/Ü-M05-For-Loop/Program.cs)
-- [ ] [Klasse Random](CS-GK-DUS-V/M03ArrayNControls/MyRandom.cs)
-- [x] Übung: [Zahlenratespiel](vadzims-solution/Ü-M05-Zahlenratespiel/Program.cs)
+- [x] Übung: [for-loop](vadzims-solution/Ü-M05-For-Loop/ÜFor.cs)
+- [ ] Klasse Random
+- [x] Übung: [Zahlenratespiel](vadzims-solution/Ü-M05-Zahlenratespiel/ÜZahlenratespiel.cs)
 
 [commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/521a35bad45e3af5bb5f9f92b6594322b8355d90)
   
@@ -172,24 +172,26 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 - [ ] [Dictionary`<T1, T2>`](/M8GenericDataStructures/MyDictionary.cs)
 - [ ] [Ü Passagierliste](/M5Fuhrpark/FuhrparkApp.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/0e0a75391d00fd0242c2a922e114a4054373db7f)
 
-## M090 | WINDOWS FORMS
+## M015 | WINDOWS FORMS
 
 - [x] partial classes
 - [x] widgets / components
 - [x] component props
-- [x] [TicTacToe](CS-GK-DUS-V/M09-Demo-WinForms/Program.cs)
+- [x] Demo: [TicTacToe](vadzims-solution/D-M15-WinFormsFramework/Form1.cs)
+- [ ] Übung: Das Spiel weiterentwickeln (neu start, gewinne zählen, abbrechen)
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/472a7c5e142650e93f3a7f837b0316b6be55c67e)
 
-## M010 | DELEGATES & EVENTS
+## M016 | DELEGATES & EVENTS
 
-- [x] custom delegates
+- [x] Folien: C# > Delegates
+- [c] custom delegates
 - [x] built-in delegates
-- [x] anonumous functions
 - [x] event handler
-- [x] [M10 Delegates](CS-GK-DUS-V/M10-Demo-Delegates/Program.cs)
+- [x] Demo: [Delegates](vadzims-solution/D-M16-Delegates/Form1.cs)
+- [x] Demo: [anonumous functions](vadzims-solution/D-M16-Delegates/Program.cs)
 
 [commit]()
 
@@ -212,11 +214,6 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 
 - [x] [LINQ Befehle](CS-GK-DUS-V/M15-Demo-LINQ/M15DemoMain.cs)
 
-## M016 | Dependency Injection
-
-- [x] [DI](CS-GK-DUS-V/M16-Experiment-Dependency-Injection/M16Main.cs)
-
-[commit]()
 
 ## M017 | Timing Klassen
 
@@ -241,6 +238,12 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 - [x] DBContext
 - [x] DBSet & Entities
 - [x] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
+
+[commit]()
+
+## M016 | Dependency Injection
+
+- [x] [DI](CS-GK-DUS-V/M16-Experiment-Dependency-Injection/M16Main.cs)
 
 [commit]()
 
