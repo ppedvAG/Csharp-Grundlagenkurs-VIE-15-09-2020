@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B8AFBF8-018B-4B5C-9230-5B5D5A8E71A2}</ProjectGuid>
+    <ProjectGuid>{AC66B0FB-E02B-400F-846E-57CA20C44859}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Demo_WinFormsFramework</RootNamespace>
-    <AssemblyName>Demo-WinFormsFramework</AssemblyName>
+    <RootNamespace>Demo_Delegates</RootNamespace>
+    <AssemblyName>Demo-Delegates</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
