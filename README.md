@@ -28,7 +28,7 @@ Tools > Options > Text Editor > All Languages > General > Line numbers
 - [x] Link: [dotnet docs](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] Spicker: [C# Syntax](CSHARP-CHEATSHEET.md)
 - [x] Spicker: [Snippets](VS-CS-SNIPPETS.md)
-- [x] Demo: [Console](vadzims-solution/Demo-Console/Program.cs)
+- [x] Demo: [Console](vadzims-solution/Demo-Console/DConsole.cs)
 
 Tools > Options > Debugging > Automatically close console when debugging stops
 
@@ -37,8 +37,8 @@ Tools > Options > Debugging > Automatically close console when debugging stops
 ## M020 | HANDLING TEXT
 
 - [x] Folien: C# > Handling Text
-- [x] Demo: [string](vadzims-solution/Demo-string/Program.cs)
-- [x] Demo: [char](vadzims-solution/Demo-char/Program.cs)
+- [x] Demo: [string](vadzims-solution/Demo-string/Dstring.cs)
+- [x] Demo: [char](vadzims-solution/Demo-char/Dchar.cs)
 
 sln props > startup projects > current
 
@@ -57,9 +57,9 @@ sln props > startup projects > current
 ## M040 | CONDITIONS
 
 - [x] Folien: C# > Conditions
-- [x] Demo: [Entscheidungen](vadzims-solution/Demo-Conditions/Program.cs)
+- [x] Demo: [Entscheidungen](vadzims-solution/Demo-Conditions/DConditions.cs)
 - [x] enum 
-- [x] Übung: [enum & switch](vadzims-solution/Ü-M04-Switch-N-Enum/Program.cs)
+- [x] Übung: [enum & switch](vadzims-solution/Ü-M04-Switch-N-Enum/ÜSwitch.cs)
 <!-- - [ ] Demo: [bool](CS-GK-DUS-V/M02-Demo-bool/Dbool.cs)-->
 <!-- - [x] [enum](CS-GK-DUS-V/M02-Demo-enum/Denum.cs)-->
 
@@ -193,6 +193,15 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 - [x] Demo: [Delegates](vadzims-solution/D-M16-Delegates/Form1.cs)
 - [x] Demo: [anonumous functions](vadzims-solution/D-M16-Delegates/Program.cs)
 
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/58b3ecb8c713de1282c7535f40e4ac3b5fe3c3ff)
+
+<!-- 
+## M017 | Timing Klassen
+
+- [ ] [Klasse Timing](CS-GK-DUS-V/M17-Demo-Timing/Form1.cs)
+- [ ] [Klasse Stopwatch](M15Demo-Timing/Form1.cs#Stopwatch)
+- [ ] [Ü kollidierende Buttons mit Timing]
+
 [commit]()
 
 Ü Einfacher Taschenrechner?
@@ -201,27 +210,18 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 
 ## M013 | TAP (async/await)
 
-- [x] Task
-- [x] async/await
-- [x] Threads
-- [x] [Demo async await ](CS-GK-DUS-V/M13-Demo-Async-Await/M13DemoMain.cs)
-- [x] [Demo Task](CS-GK-DUS-V/M13-Demo-Async-Await/MyTask.cs)
+- [ ] Task
+- [ ] async/await
+- [ ] Threads
+- [ ] [Demo async await ](CS-GK-DUS-V/M13-Demo-Async-Await/M13DemoMain.cs)
+- [ ] [Demo Task](CS-GK-DUS-V/M13-Demo-Async-Await/MyTask.cs)
 - [ ] siehe Fuhrpark, zufälliges Erzeugen
 
 [commit]()
       
 ## M015 | LINQ
 
-- [x] [LINQ Befehle](CS-GK-DUS-V/M15-Demo-LINQ/M15DemoMain.cs)
-
-
-## M017 | Timing Klassen
-
-- [x] [Klasse Timing](CS-GK-DUS-V/M17-Demo-Timing/Form1.cs)
-- [ ] [Klasse Stopwatch](M15Demo-Timing/Form1.cs#Stopwatch)
-- [ ] [Ü kollidierende Buttons mit Timing]
-
-[commit]()
+- [ ] [LINQ Befehle](CS-GK-DUS-V/M15-Demo-LINQ/M15DemoMain.cs)
  
 ## M018 | Unit-Tests
 
@@ -234,10 +234,10 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 
 ## M019 | Entity Framework Core
 
-- [x] ORM
-- [x] DBContext
-- [x] DBSet & Entities
-- [x] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
+- [ ] ORM
+- [ ] DBContext
+- [ ] DBSet & Entities
+- [ ] [Demo ](CS-GK-DUS-V/M19-Demo-Entity-Framework/EFDbContext.cs)
 
 [commit]()
 
@@ -253,3 +253,4 @@ commit
 
 - [ ] HasFlag
 - [ ] Hachtable
+-->
