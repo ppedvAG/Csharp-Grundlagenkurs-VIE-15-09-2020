@@ -127,7 +127,7 @@ sln props > startup projects > current
 - [x] Demo: [virtual](vadzims-solution/D-M11-Inheritence/Superklasse.cs) & override methods
 - [x] Demo: [override](vadzims-solution/D-M11-Inheritence/Subklasse.cs)
 - [x] abstract methods
-- [x] POLYMORPHISM
+- [x] Polymorphysm
 
 [commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/9640d02427f501b6b77ff833bdb700cc7664c5be)
 
@@ -157,22 +157,22 @@ sln props > startup projects > current
 - [x] Übung: [IKannAndereTransportieren](vadzims-solution/Ü-M13-Interfaces/IKannAndereTransportieren.cs)
 - [x] Übung: [Flugzeug: I](vadzims-solution/Ü-M13-Interfaces/Flugzeug.cs)
 
-[commit]()
+[commit](https://github.com/ppedvAG/Csharp-Grundlagenkurs-VIE-15-09-2020/commit/c2937290c381a370c2f1b10e7432eb7ac701d9e3)
 
 <!-- Polymorphism in extra Modul, weil es sonst zu viel auf einmal ist.
 Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 
-## M080 | GENERIC DATA STRUCTURES
+## M014 | GENERIC DATA STRUCTURES
 
-- [ ] [List`<T>`](/M8GenericDataStructures/MyList.cs)
+- [x] Folien: C# > Generic Data Structures
+- [x] Demo: [List`<T>`](vadzims-solution/D-M14-GenericStructures/Program.cs)
 - [ ] [Stack`<T>`](/M8GenericDataStructures/MyStack.cs)
 - [ ] [Queue`<T>`](/M8GenericDataStructures/MyQueue.cs)
 - [ ] [KeyValuePair`<T1, T2>`](/M8GenericDataStructures/MyKeyValuePair.cs)
 - [ ] [Dictionary`<T1, T2>`](/M8GenericDataStructures/MyDictionary.cs)
-- [ ] Hachtable
 - [ ] [Ü Passagierliste](/M5Fuhrpark/FuhrparkApp.cs)
-- [ ] Warteschlange
-- [ ] Ü Lab 8 
+
+[commit]()
 
 ## M090 | WINDOWS FORMS
 
@@ -249,4 +249,4 @@ Nicht zusammen mit Klassen, nicht zusammen mit Interfaces. Sondern danach -->
 commit
 
 - [ ] HasFlag
-- [ ] 
+- [ ] Hachtable

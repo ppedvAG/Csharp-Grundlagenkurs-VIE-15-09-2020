@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D-M12-Exceptions", "D-M12-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ü-M13-Interfaces", "Ü-M13-Interfaces\Ü-M13-Interfaces.csproj", "{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D-M14-GenericStructures", "D-M14-GenericStructures\D-M14-GenericStructures.csproj", "{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD7561D-A949-4DF4-9996-AD1D1FD094AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE0AED1-D0C6-4DDA-B502-519014A9C3BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

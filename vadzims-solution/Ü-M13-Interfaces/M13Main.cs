@@ -34,6 +34,32 @@ namespace Ü_M13_Interfaces
                 Console.WriteLine(item.BeschreibeMich());
             }
 
+
+            // ================================================
+            Console.WriteLine("\n\nMethode die Prüft, ob Beladen möglich ist");
+            Console.WriteLine("BeladeWennMöglich(flugzeug, t1): {0}", BeladeWennMöglich(flugzeug, t1)); 
+            bool BeladeWennMöglich(Transportmittel t1, Transportmittel t2)
+            {
+                if (t1 is Flugzeug && t2 is PKW)
+                {
+                    // Belade() ist nicht bei Transportmittel dabei
+                    // Casting notwendig
+                    // ((Flugzeug)t1).Belade(new Transportmittel[] { t2 });
+                    // oder den Typ anpassen
+                    (t1 as Flugzeug).Belade(new Transportmittel[] { t2 });
+                    return true;
+                }
+                else if (t1 is PKW && t2 is Flugzeug)
+                { 
+                    (t2 as Flugzeug).Belade(new Transportmittel[] { t1 });
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+
             Console.ReadKey();
         }
     }
